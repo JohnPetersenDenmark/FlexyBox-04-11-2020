@@ -11,29 +11,39 @@ namespace InfrastructureLayer.Services
         private DirectoryInfo directory;
         public LocalDirectorySearchFiles()
         {
-            this.directory = new DirectoryInfo("C:\\John");
+            this.directory = new DirectoryInfo("C:\\");
         }
 
         public List<string> Search(string searchTerm)
         {
-            List<string> result = new List<string>();
+            List<string> result = new List<string>();        
 
-           
-            foreach (var dir in directory.EnumerateDirectories( "*", SearchOption.AllDirectories))
+            var options = new EnumerationOptions() {IgnoreInaccessible = true};
+
+            DirectoryInfo[] dirInfoArray = directory.GetDirectories("*",  options);       
+
+            foreach (var dir in dirInfoArray)
             {
-                string dirFullname = dir.FullName;
-                string name = dir.Name;
-                foreach(var file in dir.EnumerateFiles(searchTerm, SearchOption.AllDirectories) )
+                try
                 {
-                    string fileFullname = file.FullName;
-                    string fileNameame = file.Name;
-                    result.Add(fileFullname);
+                    string dirFullname = dir.FullName;
+                    string name = dir.Name;
+                    foreach (var file in dir.EnumerateFiles(searchTerm, SearchOption.AllDirectories))
+                    {
+                        string fileFullname = file.FullName;
+                        string fileNameame = file.Name;
+                        result.Add(fileFullname);
+                    }
                 }
-                
+                catch (Exception e)
+                {
+                    result.Add(e.Message);
+                }
+
             }
             return result;
         }
 
-      
+
     }
 }

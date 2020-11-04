@@ -3,6 +3,8 @@ using ApplicationLayer.SearchTerms.Commands.CreateSearchTerm;
 using ApplicationLayer.Common;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
+using System.Collections.Generic;
+using ApplicationLayer.SearchTerms.Queries.GetSearchterms;
 
 namespace WebUILayer.Controllers
 {
@@ -27,7 +29,12 @@ namespace WebUILayer.Controllers
             return View("SearchResult", result);
         }
 
-        
+        [HttpGet]
+        public async Task<ActionResult> SearchTerms()
+        {
+            var result = await mediator.Send(new GetSearchtermsQuery());
+            return View( result);
+        }
 
     }
 }

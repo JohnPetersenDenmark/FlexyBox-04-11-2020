@@ -1,0 +1,17 @@
+﻿@model List<SearchTerm>
+
+<h1>Søgeresultat</h1>
+
+
+<div class="formcontainer">
+
+    @foreach (var searchTerm in Model)
+    {
+        <div class="form-group row">
+            <div class="form-group col-md-4">
+                @searchTerm.Term
+            </div>
+        </div>
+    }
+
+</div>

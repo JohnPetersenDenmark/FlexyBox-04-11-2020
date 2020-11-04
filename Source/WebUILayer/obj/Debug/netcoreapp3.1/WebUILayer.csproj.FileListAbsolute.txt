@@ -88,3 +88,4 @@ C:\Users\John\source\repos\FlexyBox\Source\WebUILayer\bin\Debug\netcoreapp3.1\Sy
 C:\Users\John\source\repos\FlexyBox\Source\WebUILayer\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
 C:\Users\John\source\repos\FlexyBox\Source\WebUILayer\obj\Debug\netcoreapp3.1\Razor\Views\Search\SearchResult.cshtml.g.cs
 C:\Users\John\source\repos\FlexyBox\Source\WebUILayer\obj\Debug\netcoreapp3.1\Razor\Views\Search\Search.cshtml.g.cs
+C:\Users\John\source\repos\FlexyBox\Source\WebUILayer\obj\Debug\netcoreapp3.1\Razor\Views\Search\SearchTerms.cshtml.g.cs
