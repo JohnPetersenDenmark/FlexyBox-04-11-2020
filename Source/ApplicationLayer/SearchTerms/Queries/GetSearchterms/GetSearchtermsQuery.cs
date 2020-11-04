@@ -10,12 +10,12 @@ using System.Threading.Tasks;
 
 namespace ApplicationLayer.SearchTerms.Queries.GetSearchterms
 {
-    public class GetSearchtermsQuery : IRequest<SearchTermStatisticViewModel>
+    public class GetSearchtermsQuery : IRequest<List<SearchTermStatisticViewModel>>
     {
 
     }
 
-    public class GetSearchtermsQueryHandler : IRequestHandler<GetSearchtermsQuery, SearchTermStatisticViewModel>
+    public class GetSearchtermsQueryHandler : IRequestHandler<GetSearchtermsQuery, List<SearchTermStatisticViewModel>>
     {
     
         private readonly IWebAppDbContext context;
@@ -24,15 +24,16 @@ namespace ApplicationLayer.SearchTerms.Queries.GetSearchterms
             this.context = context;
         }
 
-        public Task<SearchTermStatisticViewModel> Handle(GetSearchtermsQuery request, CancellationToken cancellationToken)
+        public Task<List<SearchTermStatisticViewModel>> Handle(GetSearchtermsQuery request, CancellationToken cancellationToken)
         {
             List<SearchTerm> searchTermList =  context.getAllSearchTermsAsync().Result;
 
-            SearchTermStatisticViewModel searchTermStatisticModel = new SearchTermStatisticViewModel();
+            List<SearchTermStatisticViewModel> searchTermStatisticModelList = new List<SearchTermStatisticViewModel>();
             
 
             foreach ( var searchTerm in searchTermList)
             {
+                SearchTermStatisticViewModel searchTermStatisticModel = new SearchTermStatisticViewModel();
                 searchTermStatisticModel.SearchTermId = searchTerm.Id;
                 searchTermStatisticModel.SearchTerm = searchTerm.Term;
 
@@ -74,9 +75,11 @@ namespace ApplicationLayer.SearchTerms.Queries.GetSearchterms
                     searchTermStatisticModel.SymbolSpec.Add(charSpec);
 
                 }
+
+                searchTermStatisticModelList.Add(searchTermStatisticModel);
             }
 
-            return Task.FromResult(searchTermStatisticModel);
+            return Task.FromResult(searchTermStatisticModelList);
         }
 
     }
