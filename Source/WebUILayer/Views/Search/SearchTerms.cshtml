@@ -1,15 +1,42 @@
-﻿@model List<SearchTerm>
+﻿@model SearchTermStatisticViewModel
 
 <h1>Søgeresultat</h1>
 
 
 <div class="formcontainer">
 
-    @foreach (var searchTerm in Model)
+    @foreach (var letterSpec in Model.LetterSpec)
     {
         <div class="form-group row">
             <div class="form-group col-md-4">
-                @searchTerm.Term
+                @letterSpec.Character
+            </div>
+            <div class="form-group col-md-4">
+                @letterSpec.CharacterCount
+            </div>
+        </div>
+    }
+
+    @foreach (var digitSpec in Model.DigitSpec)
+    {
+        <div class="form-group row">
+            <div class="form-group col-md-4">
+                @digitSpec.Character
+            </div>
+            <div class="form-group col-md-4">
+                @digitSpec.CharacterCount
+            </div>
+        </div>
+    }
+
+    @foreach (var symbolSpec in Model.SymbolSpec)
+    {
+        <div class="form-group row">
+            <div class="form-group col-md-4">
+                @symbolSpec.Character
+            </div>
+            <div class="form-group col-md-4">
+                @symbolSpec.CharacterCount
             </div>
         </div>
     }
