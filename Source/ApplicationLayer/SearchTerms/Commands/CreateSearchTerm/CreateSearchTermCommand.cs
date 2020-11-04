@@ -4,6 +4,8 @@ using System.Collections.Generic;
 using MediatR;
 using System.Threading;
 using System.Threading.Tasks;
+using System.Linq;
+using System;
 
 namespace ApplicationLayer.SearchTerms.Commands.CreateSearchTerm
 {
@@ -29,8 +31,6 @@ namespace ApplicationLayer.SearchTerms.Commands.CreateSearchTerm
         {
             List<string> result = null;
 
-            
-
             foreach (var search in searches)
             {
                 if ( search.GetType().Name.Equals("LocalDirectorySearchFiles") && request.SearchType.Equals("Local"))
@@ -43,16 +43,14 @@ namespace ApplicationLayer.SearchTerms.Commands.CreateSearchTerm
                     result = search.Search(request.SearchTerm);
                 }
 
-            }
-            
+            }            
 
             SearchTerm entity = new SearchTerm { Term = request.SearchTerm };
 
             context.SearchTerms.Add(entity);
 
             await context.SaveChangesAsync(cancellationToken);
-
-
+  
             return result;
         }
 
