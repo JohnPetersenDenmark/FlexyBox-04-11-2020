@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 
 namespace ApplicationLayer.Common
 {
+    // du ved
     public interface IWebAppDbContext
     {
         DbSet<SearchTerm> SearchTerms { get; set; }
