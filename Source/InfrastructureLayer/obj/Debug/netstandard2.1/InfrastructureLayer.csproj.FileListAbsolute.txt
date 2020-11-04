@@ -1,0 +1,14 @@
+C:\Users\John\source\repos\FlexyBox\Source\InfrastructureLayer\bin\Debug\netstandard2.1\InfrastructureLayer.deps.json
+C:\Users\John\source\repos\FlexyBox\Source\InfrastructureLayer\bin\Debug\netstandard2.1\InfrastructureLayer.dll
+C:\Users\John\source\repos\FlexyBox\Source\InfrastructureLayer\bin\Debug\netstandard2.1\InfrastructureLayer.pdb
+C:\Users\John\source\repos\FlexyBox\Source\InfrastructureLayer\bin\Debug\netstandard2.1\ApplicationLayer.dll
+C:\Users\John\source\repos\FlexyBox\Source\InfrastructureLayer\bin\Debug\netstandard2.1\DomainLayer.dll
+C:\Users\John\source\repos\FlexyBox\Source\InfrastructureLayer\bin\Debug\netstandard2.1\ApplicationLayer.pdb
+C:\Users\John\source\repos\FlexyBox\Source\InfrastructureLayer\bin\Debug\netstandard2.1\DomainLayer.pdb
+C:\Users\John\source\repos\FlexyBox\Source\InfrastructureLayer\obj\Debug\netstandard2.1\InfrastructureLayer.csprojAssemblyReference.cache
+C:\Users\John\source\repos\FlexyBox\Source\InfrastructureLayer\obj\Debug\netstandard2.1\InfrastructureLayer.AssemblyInfoInputs.cache
+C:\Users\John\source\repos\FlexyBox\Source\InfrastructureLayer\obj\Debug\netstandard2.1\InfrastructureLayer.AssemblyInfo.cs
+C:\Users\John\source\repos\FlexyBox\Source\InfrastructureLayer\obj\Debug\netstandard2.1\InfrastructureLayer.csproj.CopyComplete
+C:\Users\John\source\repos\FlexyBox\Source\InfrastructureLayer\obj\Debug\netstandard2.1\InfrastructureLayer.dll
+C:\Users\John\source\repos\FlexyBox\Source\InfrastructureLayer\obj\Debug\netstandard2.1\InfrastructureLayer.pdb
+C:\Users\John\source\repos\FlexyBox\Source\InfrastructureLayer\obj\Debug\netstandard2.1\InfrastructureLayer.csproj.CoreCompileInputs.cache

@@ -1,0 +1,17 @@
+﻿@model List<string>
+
+<h1>Søgeresultat</h1>
+
+
+<div class="formcontainer">
+
+    @foreach (var resultLine in Model)
+    {
+        <div class="form-group row">
+            <div class="form-group col-md-4">
+                @resultLine
+            </div>
+        </div>
+    }
+
+</div>

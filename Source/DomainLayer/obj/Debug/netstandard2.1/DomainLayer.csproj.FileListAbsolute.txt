@@ -1,0 +1,9 @@
+C:\Users\John\source\repos\FlexyBox\Source\DomainLayer\bin\Debug\netstandard2.1\DomainLayer.deps.json
+C:\Users\John\source\repos\FlexyBox\Source\DomainLayer\bin\Debug\netstandard2.1\DomainLayer.dll
+C:\Users\John\source\repos\FlexyBox\Source\DomainLayer\bin\Debug\netstandard2.1\DomainLayer.pdb
+C:\Users\John\source\repos\FlexyBox\Source\DomainLayer\obj\Debug\netstandard2.1\DomainLayer.AssemblyInfoInputs.cache
+C:\Users\John\source\repos\FlexyBox\Source\DomainLayer\obj\Debug\netstandard2.1\DomainLayer.AssemblyInfo.cs
+C:\Users\John\source\repos\FlexyBox\Source\DomainLayer\obj\Debug\netstandard2.1\DomainLayer.csproj.CoreCompileInputs.cache
+C:\Users\John\source\repos\FlexyBox\Source\DomainLayer\obj\Debug\netstandard2.1\DomainLayer.dll
+C:\Users\John\source\repos\FlexyBox\Source\DomainLayer\obj\Debug\netstandard2.1\DomainLayer.pdb
+C:\Users\John\source\repos\FlexyBox\Source\DomainLayer\obj\Debug\netstandard2.1\DomainLayer.csprojAssemblyReference.cache

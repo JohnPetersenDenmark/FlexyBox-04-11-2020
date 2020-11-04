@@ -1,0 +1,32 @@
+﻿@model CreateSearchTermCommand
+
+
+<h1>Søg</h1>
+
+
+<div class="formcontainer">
+    <form method="post">
+
+       
+        <select asp-for="@Model.SearchType">
+            <option value="NYTSeach">New York Times</option>
+            <option value="Local">Lokalt</option>
+        </select>
+
+        <div asp-validation-summary=" All" class="text-danger">
+        </div>
+        <div class="form-group row">
+            <div class="form-group col-md-4">
+                <input asp-for="@Model.SearchTerm" class="form-control" />
+                <span asp-validation-for="@Model.SearchTerm" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <div class="form-group col-md-4">
+                <button type="submit" class="btn btn-outline-secondary btn-sm">Søg</button>
+            </div>
+        </div>
+    </form>
+</div>
+<br />

@@ -1,0 +1,12 @@
+C:\Users\John\source\repos\FlexyBox\Source\ApplicationLayer\bin\Debug\netstandard2.1\ApplicationLayer.deps.json
+C:\Users\John\source\repos\FlexyBox\Source\ApplicationLayer\bin\Debug\netstandard2.1\ApplicationLayer.dll
+C:\Users\John\source\repos\FlexyBox\Source\ApplicationLayer\bin\Debug\netstandard2.1\ApplicationLayer.pdb
+C:\Users\John\source\repos\FlexyBox\Source\ApplicationLayer\bin\Debug\netstandard2.1\DomainLayer.dll
+C:\Users\John\source\repos\FlexyBox\Source\ApplicationLayer\bin\Debug\netstandard2.1\DomainLayer.pdb
+C:\Users\John\source\repos\FlexyBox\Source\ApplicationLayer\obj\Debug\netstandard2.1\ApplicationLayer.csprojAssemblyReference.cache
+C:\Users\John\source\repos\FlexyBox\Source\ApplicationLayer\obj\Debug\netstandard2.1\ApplicationLayer.AssemblyInfoInputs.cache
+C:\Users\John\source\repos\FlexyBox\Source\ApplicationLayer\obj\Debug\netstandard2.1\ApplicationLayer.AssemblyInfo.cs
+C:\Users\John\source\repos\FlexyBox\Source\ApplicationLayer\obj\Debug\netstandard2.1\ApplicationLayer.csproj.CopyComplete
+C:\Users\John\source\repos\FlexyBox\Source\ApplicationLayer\obj\Debug\netstandard2.1\ApplicationLayer.dll
+C:\Users\John\source\repos\FlexyBox\Source\ApplicationLayer\obj\Debug\netstandard2.1\ApplicationLayer.pdb
+C:\Users\John\source\repos\FlexyBox\Source\ApplicationLayer\obj\Debug\netstandard2.1\ApplicationLayer.csproj.CoreCompileInputs.cache
