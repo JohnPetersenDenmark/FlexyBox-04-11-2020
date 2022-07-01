@@ -7013,23 +7013,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\John\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\jp\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\John\\source\\repos\\FlexyBox\\Source\\InfrastructureLayer\\InfrastructureLayer.csproj",
+      "projectUniqueName": "C:\\Users\\jp\\Source\\Repos\\FlexyBox-04-11-2020\\Source\\InfrastructureLayer\\InfrastructureLayer.csproj",
       "projectName": "InfrastructureLayer",
-      "projectPath": "C:\\Users\\John\\source\\repos\\FlexyBox\\Source\\InfrastructureLayer\\InfrastructureLayer.csproj",
-      "packagesPath": "C:\\Users\\John\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\John\\source\\repos\\FlexyBox\\Source\\InfrastructureLayer\\obj\\",
+      "projectPath": "C:\\Users\\jp\\Source\\Repos\\FlexyBox-04-11-2020\\Source\\InfrastructureLayer\\InfrastructureLayer.csproj",
+      "packagesPath": "C:\\Users\\jp\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\jp\\Source\\Repos\\FlexyBox-04-11-2020\\Source\\InfrastructureLayer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\John\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\jp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -7037,13 +7038,15 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Users\\jp\\Documents\\jakeTest\\NuGet": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
           "projectReferences": {
-            "C:\\Users\\John\\source\\repos\\FlexyBox\\Source\\ApplicationLayer\\ApplicationLayer.csproj": {
-              "projectPath": "C:\\Users\\John\\source\\repos\\FlexyBox\\Source\\ApplicationLayer\\ApplicationLayer.csproj"
+            "C:\\Users\\jp\\Source\\Repos\\FlexyBox-04-11-2020\\Source\\ApplicationLayer\\ApplicationLayer.csproj": {
+              "projectPath": "C:\\Users\\jp\\Source\\Repos\\FlexyBox-04-11-2020\\Source\\ApplicationLayer\\ApplicationLayer.csproj"
             }
           }
         }
@@ -7056,6 +7059,7 @@
     },
     "frameworks": {
       "netstandard2.1": {
+        "targetAlias": "netstandard2.1",
         "dependencies": {
           "Microsoft.AspNet.WebApi.Client": {
             "target": "Package",
@@ -7093,7 +7097,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }
