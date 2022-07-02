@@ -7,17 +7,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebUILayer", "Source\WebUIL
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{F9381E5E-D35B-48C9-8AB2-53AA0A719008}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApplicationLayer", "Source\ApplicationLayer\ApplicationLayer.csproj", "{DD17621A-5BFC-4FE7-BD37-2B3451614022}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApplicationLayer", "Source\ApplicationLayer\ApplicationLayer.csproj", "{DD17621A-5BFC-4FE7-BD37-2B3451614022}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DomainLayer", "Source\DomainLayer\DomainLayer.csproj", "{D63C062C-F693-4031-82D5-A7276C04C215}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DomainLayer", "Source\DomainLayer\DomainLayer.csproj", "{D63C062C-F693-4031-82D5-A7276C04C215}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InfrastructureLayer", "Source\InfrastructureLayer\InfrastructureLayer.csproj", "{6F3BF906-4CFF-4968-97C0-6864A40505B4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InfrastructureLayer", "Source\InfrastructureLayer\InfrastructureLayer.csproj", "{6F3BF906-4CFF-4968-97C0-6864A40505B4}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTests", "UnitTests", "{CF3B2FC4-74E6-4B25-83A8-20BB6B9B689E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "UnitTests\Application\Application.csproj", "{74C3BE81-E297-45ED-A46C-F11B4B54EC74}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application", "UnitTests\Application\Application.csproj", "{74C3BE81-E297-45ED-A46C-F11B4B54EC74}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "UnitTests\Domain\Domain.csproj", "{3AEF54A3-E638-45AB-BE8D-249FF480007A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "UnitTests\Domain\Domain.csproj", "{3AEF54A3-E638-45AB-BE8D-249FF480007A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,0 +1,13 @@
+{
+  "profiles": {
+    "Docker": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development"
+      }
+    },
+    "Docker (1)": {
+      "commandName": "Docker"
+    }
+  }
+}
