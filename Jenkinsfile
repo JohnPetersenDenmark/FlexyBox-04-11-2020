@@ -1,7 +1,7 @@
 pipeline {
     agent {
         docker {
-            image 'image 'mcr.microsoft.com/dotnet/sdk:6.0'
+            image 'mcr.microsoft.com/dotnet/sdk:6.0'
             args '-v $HOME/.m2:/root/.m2'
         }
     }
