@@ -8,8 +8,13 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'mvn -B'
+                sh '''
+          docker version
+          docker info
+          docker compose version        
+        '''
             }
         }
     }
 }
+
