@@ -1,14 +1,20 @@
 pipeline {
-    agent {
-        docker {
-            image 'mcr.microsoft.com/dotnet/sdk:6.0'
-            args '-v $HOME/.m2:/root/.m2'
-        }
-    }
+    agent any
+
     stages {
         stage('Build') {
             steps {
-                sh 'mvn -B'    
+                echo 'Building..'
+            }
+        }
+        stage('Test') {
+            steps {
+                echo 'Testing..'
+            }
+        }
+        stage('Deploy') {
+            steps {
+                echo 'Deploying....'
             }
         }
     }
