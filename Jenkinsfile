@@ -9,9 +9,7 @@ pipeline {
         stage('Build') {
             steps {
                 sh '''
-          docker version
-          docker info
-          docker compose version        
+        pwd  
         '''
             }
         }
