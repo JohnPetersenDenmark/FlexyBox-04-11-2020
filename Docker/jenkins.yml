@@ -10,6 +10,6 @@ services:
           - c:/myapp:/var/jenkins_home/workspace/myapp
           
     unixNode:
-        image: 'amd64/ubuntu'         
+        image: 'amd64/ubuntu'          
 volumes:
   jenkins_home:
