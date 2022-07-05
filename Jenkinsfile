@@ -1,6 +1,8 @@
 pipeline {
     stages {
-       
+            agent {
+                    docker { image 'node:16.13.1-alpine' }
+                    }
        stage('Initialize'){
          steps {
                 echo 'Initializing..'
