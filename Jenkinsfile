@@ -1,29 +1,21 @@
 pipeline {
+    agent none
     stages {
+        stage('Back-end') {
             agent {
-                    docker { image 'node:16.13.1-alpine' }
-                    }
-       stage('Initialize'){
-         steps {
-                echo 'Initializing..'
-            }       
-        }
-
-
-        stage('Build') {
-            steps {           
-                echo 'Building..'
+                docker { image 'maven:3.8.1-adoptopenjdk-11' }
             }
-        }
-        stage('Test') {
             steps {
-                echo 'Testing..'
+                sh 'mvn --version'
             }
         }
-        stage('Deploy') {
-            steps {
-                echo 'Deploying....'
+        stage('Front-end') {
+            agent {
+                docker { image 'node:16.13.1-alpine' }
             }
-        }  
-    } 
+            steps {
+                sh 'node --version'
+            }
+        }
+    }
 }
