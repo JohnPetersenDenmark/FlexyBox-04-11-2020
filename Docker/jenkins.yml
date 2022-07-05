@@ -13,3 +13,4 @@ services:
         image: 'amd64/ubuntu'          
 volumes:
   jenkins_home:
+   
