@@ -7,7 +7,7 @@ services:
       - '50000:50000'
     volumes:
       - jenkins_home:/var/jenkins_home
-      - c:/myapp:/var/jenkins_home/workspace/FlexyApp_master
+      - c:/myapp:/var/jenkins_home/workspace
         -/var/run/docker.sock
 volumes:
   jenkins_home:
