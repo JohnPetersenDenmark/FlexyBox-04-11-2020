@@ -1,6 +1,6 @@
 version: '3.7'
 services:
-  jenkins:
+  jenkinsMyNode:
     image: 'jenkins/jenkins:lts-jdk11'
     ports:
       - '8080:8080'
