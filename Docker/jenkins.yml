@@ -1,5 +1,8 @@
 version: '3.7'
 services:
+    dockerNode:
+     image: 'docker'
+
     jenkinsMyNode:
         image: 'jenkins/jenkins:lts-jdk11'
         ports:
