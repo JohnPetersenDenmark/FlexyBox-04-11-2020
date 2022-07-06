@@ -7,7 +7,7 @@ pipeline {
             }
             steps {
                 
-                sh 'dotnet'
+               sh 'dotnet build /var/jenkins_home/workspace/TestMultiBranch_master/FlexyBox.sln -c Release -o out'
             }
         }        
     }
