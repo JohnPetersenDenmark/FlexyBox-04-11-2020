@@ -7,7 +7,7 @@ pipeline {
             }
             steps {
                 
-                sh 'dotnet build "FlexyBox.sln" -c Release -o flexyout'
+                sh 'dotnet'
             }
         }        
     }
