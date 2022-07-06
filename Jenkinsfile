@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Back-end') {            
             steps {
-                sh 'pwd'
+                sh 'docker ps'
             }
         }
         
