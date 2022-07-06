@@ -2,6 +2,8 @@ version: '3.7'
 services:
     dockerNode:
      image: 'docker'
+     volumes:
+     - /var/run/docker.sock:/var/run/docker.sock
 
     jenkinsMyNode:
         image: 'jenkins/jenkins:lts-jdk11'
@@ -10,8 +12,7 @@ services:
         - '50000:50000'
         volumes:
           - jenkins_home:/var/jenkins_home
-          - c:/myapp:/var/jenkins_home/workspace/myapp
-          - /var/run/docker.sock:/var/run/docker.sock
+          - c:/myapp:/var/jenkins_home/workspace/myapp          
           
     unixNode:
         image: 'amd64/ubuntu'          
