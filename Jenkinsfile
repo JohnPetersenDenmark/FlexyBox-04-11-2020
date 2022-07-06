@@ -1,21 +1,13 @@
 pipeline {
     agent none
     stages {
-        stage('Back-end') {
+        stage('Dockerize dotnet SDK 3.1') {
             agent {
-                docker { image 'maven:3.8.1-adoptopenjdk-11' }
+                docker { image 'mcr.microsoft.com/dotnet/sdk:3.1' }
             }
             steps {
-                sh 'mvn --version'
+                sh 'dotnet'
             }
-        }
-        stage('Front-end') {
-            agent {
-                docker { image 'node:16.13.1-alpine' }
-            }
-            steps {
-                sh 'node --version'
-            }
-        }
+        }        
     }
 }
