@@ -1,8 +1,8 @@
 pipeline {
     agent none
      environment {
-                                HOME = '/tmp'
-                        } 
+                   HOME = '/tmp'
+                 } 
     stages {
         stage('Dockerize dotnet SDK 3.1') {
             agent {
