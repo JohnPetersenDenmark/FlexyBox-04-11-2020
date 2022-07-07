@@ -20,6 +20,8 @@ networks:
 volumes:
   jenkins-data:
   jenkins-docker-certs:
+  jenkins-dit:
+  jenkins-dat:
 
 services:
 
@@ -33,7 +35,9 @@ services:
       - 8080:8080
       - 50000:50000
     tty: true
-    volumes:      
+    volumes:
+      - jenkins-dit:/var/jenkins_home/workspace/DotNetBuildInDocker_master
+      - jenkins-dat:/var/jenkins_home/workspace/DotNetBuildInDocker_master@tmp
       - jenkins-data:/var/jenkins_home
       - jenkins-docker-certs:/certs/client:ro
       - /jenkins:/var/jenkins_home
@@ -54,7 +58,9 @@ services:
     ports:
       - 2376:2376
     tty: true
-    volumes:   
+    volumes: 
+      - jenkins-dit:/var/jenkins_home/workspace/DotNetBuildInDocker_master
+      - jenkins-dat:/var/jenkins_home/workspace/DotNetBuildInDocker_master@tmp
       - jenkins-data:/var/jenkins_home
       - jenkins-docker-certs:/certs/client
       - /jenkins:/var/jenkins_home
