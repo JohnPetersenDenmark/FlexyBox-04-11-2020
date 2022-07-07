@@ -20,7 +20,6 @@ networks:
 volumes:
   jenkins-data:
   jenkins-docker-certs:
-  jenkins-workspace:
 
 services:
 
@@ -34,7 +33,6 @@ services:
       - 50000:50000
     tty: true
     volumes:
-      - jenkins-workspace:/var/jenkins_home/workspace
       - jenkins-data:/var/jenkins_home
       - jenkins-docker-certs:/certs/client:ro
       - /jenkins:/home
@@ -54,8 +52,7 @@ services:
     ports:
       - 2376:2376
     tty: true
-    volumes:
-    - jenkins-workspace:/var/jenkins_home/workspace
+    volumes:   
       - jenkins-data:/var/jenkins_home
       - jenkins-docker-certs:/certs/client
       - /jenkins:/home
