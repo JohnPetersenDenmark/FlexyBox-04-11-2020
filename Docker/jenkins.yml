@@ -20,6 +20,8 @@ networks:
 volumes:
   jenkins-data:
   jenkins-docker-certs:
+  jenkins-tmp1:
+  jenkins-tmp2:
 
 services:
 
@@ -33,6 +35,8 @@ services:
       - 50000:50000
     tty: true
     volumes:
+      - jenkins-tmp1:/var/jenkins_home/workspace/TestMultiBranch_master
+      - jenkins-tmp2:/var/jenkins_home/workspace/TestMultiBranch_master@tmp
       - jenkins-data:/var/jenkins_home
       - jenkins-docker-certs:/certs/client:ro
       - /jenkins:/var/jenkins_home
