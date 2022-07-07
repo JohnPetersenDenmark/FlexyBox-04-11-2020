@@ -55,6 +55,7 @@ services:
       - 2376:2376
     tty: true
     volumes:
+    - jenkins-workspace:/var/jenkins_home/workspace
       - jenkins-data:/var/jenkins_home
       - jenkins-docker-certs:/certs/client
       - /jenkins:/home
