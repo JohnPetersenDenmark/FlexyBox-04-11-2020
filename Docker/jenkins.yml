@@ -20,6 +20,7 @@ networks:
 volumes:
   jenkins-data:
   jenkins-docker-certs:
+  jenkins-sock:
  
 services:
 
@@ -34,6 +35,7 @@ services:
       - 50000:50000
     tty: true
     volumes:
+      -jenkins-sock:/var/run/docker.sock:/var/run/docker.sock
       - jenkins-data:/var/jenkins_home
       - jenkins-docker-certs:/certs/client:ro
       - /jenkins:/var/jenkins_home
