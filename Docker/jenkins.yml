@@ -43,21 +43,4 @@ services:
       - DOCKER_CERT_PATH=/certs/client
       - DOCKER_TLS_VERIFY=1
 
-  dind:
-    image: docker:dind
-    privileged: true
-   
-    restart: always
-    networks:
-      docker:
-        aliases: 
-          - docker
-    ports:
-      - 2376:2376
-    tty: true
-    volumes:    
-      - jenkins-data:/var/jenkins_home
-      - jenkins-docker-certs:/certs/client
-      - /jenkins:/var/jenkins_home
-    environment:
-      - DOCKER_TLS_CERTDIR=/certs
+ 
