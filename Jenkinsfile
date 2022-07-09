@@ -1,14 +1,7 @@
-pipeline {
-    agent none
-     environment {
-                   HOME = '/tmp'
-                 } 
-
-   agent {
+pipeline {    
+   agent 
               { dockerfile true }
-         }
-
-
+         
     stages {
         stage('Dockerize dotnet SDK 3.1') {           
             steps {               
