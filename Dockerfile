@@ -3,7 +3,12 @@
 FROM mcr.microsoft.com/dotnet/runtime:3.1 AS base
 WORKDIR /app
 
+COPY root.pem /usr/local/share/ca-certificates/root.crt
+COPY proxy.pem /usr/local/share/ca-certificates/proxy.crt
+RUN update-ca-certificates
+
 FROM mcr.microsoft.com/dotnet/sdk:3.1 AS build
+
 WORKDIR /src
 COPY ["Docker/Docker.csproj", "Docker/"]
 RUN dotnet restore "Docker/Docker.csproj"
