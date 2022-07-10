@@ -1,12 +1,12 @@
-pipeline {    
-   agent 
-              { dockerfile true }
-         
+pipeline {
+    agent {
+        docker { image 'node:16.13.1-alpine' }
+    }
     stages {
-        stage('Dockerize dotnet SDK 3.1') {           
-            steps {               
-               sh 'dotnet build /var/jenkins_home/workspace/DotNetBuildInDocker_master/FlexyBox.sln -c Release -o /var/jenkins_home/workspace/TestMultiBranch_master/out'
+        stage('Test') {
+            steps {
+                sh 'node --version'
             }
-        }        
+        }
     }
 }
