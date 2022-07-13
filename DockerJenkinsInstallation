@@ -1,6 +1,8 @@
 
 
 
+Path to DOCKER VOLUMES on the windows host: \\wsl$\docker-desktop-data\data\docker\volumes
+
 	1.	Set virtualisering op på Windows maskine
 
 		1.1	Microsoft guide: https://docs.microsoft.com/en-us/windows/wsl/install
