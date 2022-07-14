@@ -60,7 +60,7 @@ Path to DOCKER VOLUMES on the windows host: \\wsl$\docker-desktop-data\data\dock
 		--volume jenkins-data:/var/jenkins_home ^
 		--publish 2376:2376 ^
 		docker:dind
-		 
+		  
 	
 	7.	For at sætte Jenkins op.
 
