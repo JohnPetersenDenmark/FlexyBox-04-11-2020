@@ -7,7 +7,7 @@ pipeline {
             stage('Build Dockerize dotnet SDK 3.1')
             {
                 agent {
-                        docker { image 'mcr.microsoft.com/dotnet/sdk:3.1'
+                        docker { image 'mcr.microsoft.com/dotnet/sdk:3.1'}
                       }
             
                 steps {               
