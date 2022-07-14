@@ -27,6 +27,6 @@ pipeline {
             steps {               
                sh 'dotnet publish /var/jenkins_home/workspace/DotNetBuild/FlexyBox.sln -c Release -o /var/jenkins_home/workspace/DotNetBuild/out'
             }
-        }        
+                
     }
 }
