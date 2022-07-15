@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vL1/O33yhayNnLgqWoDlPdVRU4Np6GbkaZbua4e5S63sZgM6DfAjSLvVswtCfLvU/8zL0Iv7ldWfpE71+EbNGg==",
+  "dgSpecHash": "Qd7lXd0Gx5cnJgnl1bm6IOlpOU/4v6XvQcxBrn/CX7alalPShkxgZR7QzagAiyTF2YGBBSkSunrdvVvXBB5hgw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jp\\Source\\Repos\\FlexyBox-04-11-2020\\Source\\WebUILayer\\WebUILayer.csproj",
+  "projectFilePath": "C:\\Users\\jp\\source\\repos\\FlexyBox-04-11-2020\\Source\\WebUILayer\\WebUILayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jp\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
     "C:\\Users\\jp\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\9.0.0\\mediatr.extensions.microsoft.dependencyinjection.9.0.0.nupkg.sha512",
@@ -139,7 +139,8 @@
     "C:\\Users\\jp\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\jp\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\jp\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\jp\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
+    "C:\\Users\\jp\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
+    "C:\\Users\\jp\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.23\\microsoft.netcore.app.host.win-x64.3.1.23.nupkg.sha512"
   ],
   "logs": []
 }

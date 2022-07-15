@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PatgO4+JkzTLc+wkiW+4f2xpuv0rEdS2qQa47fdjxi+N6XdL1wV0VfpvfXcsxaNmsge5QQEZ6iVO0N7BOWwXpA==",
+  "dgSpecHash": "vqvk+OB89qxCeH2PxwrfnXGwm+gq22gjbAYUTUYgkLjXRGZrprmp+hBOKOH1/cYaBfmxlfE/AZ5QyBe4YHGorA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jp\\Source\\Repos\\FlexyBox-04-11-2020\\Source\\ApplicationLayer\\ApplicationLayer.csproj",
+  "projectFilePath": "C:\\Users\\jp\\source\\repos\\FlexyBox-04-11-2020\\Source\\ApplicationLayer\\ApplicationLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jp\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
     "C:\\Users\\jp\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\9.0.0\\mediatr.extensions.microsoft.dependencyinjection.9.0.0.nupkg.sha512",

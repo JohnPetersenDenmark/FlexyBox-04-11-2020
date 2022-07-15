@@ -1,9 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Docker",
-    "\\Source"
+    "\\FlexyBoxTest"
   ],
-  "SelectedNode": "\\Docker\\Program.cs",
+  "SelectedNode": "\\MyUnitTestProject",
   "PreviewInSolutionExplorer": false
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jp\\Source\\Repos\\FlexyBox-04-11-2020\\Source\\InfrastructureLayer\\InfrastructureLayer.csproj": {}
+    "C:\\Users\\jp\\source\\repos\\FlexyBox-04-11-2020\\Source\\InfrastructureLayer\\InfrastructureLayer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jp\\Source\\Repos\\FlexyBox-04-11-2020\\Source\\ApplicationLayer\\ApplicationLayer.csproj": {
+    "C:\\Users\\jp\\source\\repos\\FlexyBox-04-11-2020\\Source\\ApplicationLayer\\ApplicationLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jp\\Source\\Repos\\FlexyBox-04-11-2020\\Source\\ApplicationLayer\\ApplicationLayer.csproj",
+        "projectUniqueName": "C:\\Users\\jp\\source\\repos\\FlexyBox-04-11-2020\\Source\\ApplicationLayer\\ApplicationLayer.csproj",
         "projectName": "ApplicationLayer",
-        "projectPath": "C:\\Users\\jp\\Source\\Repos\\FlexyBox-04-11-2020\\Source\\ApplicationLayer\\ApplicationLayer.csproj",
+        "projectPath": "C:\\Users\\jp\\source\\repos\\FlexyBox-04-11-2020\\Source\\ApplicationLayer\\ApplicationLayer.csproj",
         "packagesPath": "C:\\Users\\jp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jp\\Source\\Repos\\FlexyBox-04-11-2020\\Source\\ApplicationLayer\\obj\\",
+        "outputPath": "C:\\Users\\jp\\source\\repos\\FlexyBox-04-11-2020\\Source\\ApplicationLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,8 +33,8 @@
           "netstandard2.1": {
             "targetAlias": "netstandard2.1",
             "projectReferences": {
-              "C:\\Users\\jp\\Source\\Repos\\FlexyBox-04-11-2020\\Source\\DomainLayer\\DomainLayer.csproj": {
-                "projectPath": "C:\\Users\\jp\\Source\\Repos\\FlexyBox-04-11-2020\\Source\\DomainLayer\\DomainLayer.csproj"
+              "C:\\Users\\jp\\source\\repos\\FlexyBox-04-11-2020\\Source\\DomainLayer\\DomainLayer.csproj": {
+                "projectPath": "C:\\Users\\jp\\source\\repos\\FlexyBox-04-11-2020\\Source\\DomainLayer\\DomainLayer.csproj"
               }
             }
           }
@@ -85,14 +85,14 @@
         }
       }
     },
-    "C:\\Users\\jp\\Source\\Repos\\FlexyBox-04-11-2020\\Source\\DomainLayer\\DomainLayer.csproj": {
+    "C:\\Users\\jp\\source\\repos\\FlexyBox-04-11-2020\\Source\\DomainLayer\\DomainLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jp\\Source\\Repos\\FlexyBox-04-11-2020\\Source\\DomainLayer\\DomainLayer.csproj",
+        "projectUniqueName": "C:\\Users\\jp\\source\\repos\\FlexyBox-04-11-2020\\Source\\DomainLayer\\DomainLayer.csproj",
         "projectName": "DomainLayer",
-        "projectPath": "C:\\Users\\jp\\Source\\Repos\\FlexyBox-04-11-2020\\Source\\DomainLayer\\DomainLayer.csproj",
+        "projectPath": "C:\\Users\\jp\\source\\repos\\FlexyBox-04-11-2020\\Source\\DomainLayer\\DomainLayer.csproj",
         "packagesPath": "C:\\Users\\jp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jp\\Source\\Repos\\FlexyBox-04-11-2020\\Source\\DomainLayer\\obj\\",
+        "outputPath": "C:\\Users\\jp\\source\\repos\\FlexyBox-04-11-2020\\Source\\DomainLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -144,14 +144,14 @@
         }
       }
     },
-    "C:\\Users\\jp\\Source\\Repos\\FlexyBox-04-11-2020\\Source\\InfrastructureLayer\\InfrastructureLayer.csproj": {
+    "C:\\Users\\jp\\source\\repos\\FlexyBox-04-11-2020\\Source\\InfrastructureLayer\\InfrastructureLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jp\\Source\\Repos\\FlexyBox-04-11-2020\\Source\\InfrastructureLayer\\InfrastructureLayer.csproj",
+        "projectUniqueName": "C:\\Users\\jp\\source\\repos\\FlexyBox-04-11-2020\\Source\\InfrastructureLayer\\InfrastructureLayer.csproj",
         "projectName": "InfrastructureLayer",
-        "projectPath": "C:\\Users\\jp\\Source\\Repos\\FlexyBox-04-11-2020\\Source\\InfrastructureLayer\\InfrastructureLayer.csproj",
+        "projectPath": "C:\\Users\\jp\\source\\repos\\FlexyBox-04-11-2020\\Source\\InfrastructureLayer\\InfrastructureLayer.csproj",
         "packagesPath": "C:\\Users\\jp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jp\\Source\\Repos\\FlexyBox-04-11-2020\\Source\\InfrastructureLayer\\obj\\",
+        "outputPath": "C:\\Users\\jp\\source\\repos\\FlexyBox-04-11-2020\\Source\\InfrastructureLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -173,8 +173,8 @@
           "netstandard2.1": {
             "targetAlias": "netstandard2.1",
             "projectReferences": {
-              "C:\\Users\\jp\\Source\\Repos\\FlexyBox-04-11-2020\\Source\\ApplicationLayer\\ApplicationLayer.csproj": {
-                "projectPath": "C:\\Users\\jp\\Source\\Repos\\FlexyBox-04-11-2020\\Source\\ApplicationLayer\\ApplicationLayer.csproj"
+              "C:\\Users\\jp\\source\\repos\\FlexyBox-04-11-2020\\Source\\ApplicationLayer\\ApplicationLayer.csproj": {
+                "projectPath": "C:\\Users\\jp\\source\\repos\\FlexyBox-04-11-2020\\Source\\ApplicationLayer\\ApplicationLayer.csproj"
               }
             }
           }
