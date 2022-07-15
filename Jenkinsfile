@@ -1,17 +1,18 @@
-pipeline {
-    agent none
+pipeline {     
      environment {
                    HOME = '/tmp'
                  } 
+
+    agent {
+            docker { image 'mcr.microsoft.com/dotnet/sdk:3.1' }
+          }
     stages {
           
             
             stage('Test Dockerize dotnet SDK 3.1')
             {
 
-              agent {
-                        docker { image 'mcr.microsoft.com/dotnet/sdk:3.1' }
-                    }
+            
             steps {    
             
                
