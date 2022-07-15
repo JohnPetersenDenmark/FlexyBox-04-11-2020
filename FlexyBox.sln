@@ -6,12 +6,32 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebUILayer", "Source\WebUILayer\WebUILayer.csproj", "{C4A42E96-CB50-42C5-A534-A2272BD52BEA}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{F9381E5E-D35B-48C9-8AB2-53AA0A719008}"
+	ProjectSection(SolutionItems) = preProject
+		Dockerfile = Dockerfile
+		DockerJenkinsInstallation = DockerJenkinsInstallation
+		Docker\jenkins.yml = Docker\jenkins.yml
+		Jenkinsfile = Jenkinsfile
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApplicationLayer", "Source\ApplicationLayer\ApplicationLayer.csproj", "{DD17621A-5BFC-4FE7-BD37-2B3451614022}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DomainLayer", "Source\DomainLayer\DomainLayer.csproj", "{D63C062C-F693-4031-82D5-A7276C04C215}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InfrastructureLayer", "Source\InfrastructureLayer\InfrastructureLayer.csproj", "{6F3BF906-4CFF-4968-97C0-6864A40505B4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docker", "Docker", "{20BD1B42-9FEB-491D-B104-884F80462106}"
+	ProjectSection(SolutionItems) = preProject
+		Docker\appsettings.Development.json = Docker\appsettings.Development.json
+		Docker\appsettings.json = Docker\appsettings.json
+		Docker\Docker.csproj = Docker\Docker.csproj
+		Docker\Docker.csproj.user = Docker\Docker.csproj.user
+		Dockerfile = Dockerfile
+		DockerJenkinsInstallation = DockerJenkinsInstallation
+		Docker\jenkins.yml = Docker\jenkins.yml
+		Jenkinsfile = Jenkinsfile
+		Docker\Program.cs = Docker\Program.cs
+		Docker\Worker.cs = Docker\Worker.cs
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
