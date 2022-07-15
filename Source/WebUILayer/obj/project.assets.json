@@ -2096,7 +2096,7 @@
       },
       "ApplicationLayer/1.0.0": {
         "type": "project",
-        "framework": ".NETStandard,Version=v2.1",
+        "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
           "DomainLayer": "1.0.0",
           "MediatR": "9.0.0",
@@ -2113,7 +2113,7 @@
       },
       "DomainLayer/1.0.0": {
         "type": "project",
-        "framework": ".NETStandard,Version=v2.1",
+        "framework": ".NETCoreApp,Version=v3.1",
         "compile": {
           "bin/placeholder/DomainLayer.dll": {}
         },
@@ -2123,7 +2123,7 @@
       },
       "InfrastructureLayer/1.0.0": {
         "type": "project",
-        "framework": ".NETStandard,Version=v2.1",
+        "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
           "ApplicationLayer": "1.0.0",
           "Microsoft.AspNet.WebApi.Client": "5.2.7",

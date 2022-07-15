@@ -1,0 +1,15 @@
+C:\Users\jp\source\repos\FlexyBox-04-11-2020\Source\InfrastructureLayer\bin\Debug\netcoreapp3.1\InfrastructureLayer.deps.json
+C:\Users\jp\source\repos\FlexyBox-04-11-2020\Source\InfrastructureLayer\bin\Debug\netcoreapp3.1\InfrastructureLayer.dll
+C:\Users\jp\source\repos\FlexyBox-04-11-2020\Source\InfrastructureLayer\bin\Debug\netcoreapp3.1\InfrastructureLayer.pdb
+C:\Users\jp\source\repos\FlexyBox-04-11-2020\Source\InfrastructureLayer\bin\Debug\netcoreapp3.1\ApplicationLayer.dll
+C:\Users\jp\source\repos\FlexyBox-04-11-2020\Source\InfrastructureLayer\bin\Debug\netcoreapp3.1\DomainLayer.dll
+C:\Users\jp\source\repos\FlexyBox-04-11-2020\Source\InfrastructureLayer\bin\Debug\netcoreapp3.1\ApplicationLayer.pdb
+C:\Users\jp\source\repos\FlexyBox-04-11-2020\Source\InfrastructureLayer\bin\Debug\netcoreapp3.1\DomainLayer.pdb
+C:\Users\jp\source\repos\FlexyBox-04-11-2020\Source\InfrastructureLayer\obj\Debug\netcoreapp3.1\InfrastructureLayer.csproj.AssemblyReference.cache
+C:\Users\jp\source\repos\FlexyBox-04-11-2020\Source\InfrastructureLayer\obj\Debug\netcoreapp3.1\InfrastructureLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jp\source\repos\FlexyBox-04-11-2020\Source\InfrastructureLayer\obj\Debug\netcoreapp3.1\InfrastructureLayer.AssemblyInfoInputs.cache
+C:\Users\jp\source\repos\FlexyBox-04-11-2020\Source\InfrastructureLayer\obj\Debug\netcoreapp3.1\InfrastructureLayer.AssemblyInfo.cs
+C:\Users\jp\source\repos\FlexyBox-04-11-2020\Source\InfrastructureLayer\obj\Debug\netcoreapp3.1\InfrastructureLayer.csproj.CoreCompileInputs.cache
+C:\Users\jp\source\repos\FlexyBox-04-11-2020\Source\InfrastructureLayer\obj\Debug\netcoreapp3.1\InfrastructureLayer.csproj.CopyComplete
+C:\Users\jp\source\repos\FlexyBox-04-11-2020\Source\InfrastructureLayer\obj\Debug\netcoreapp3.1\InfrastructureLayer.dll
+C:\Users\jp\source\repos\FlexyBox-04-11-2020\Source\InfrastructureLayer\obj\Debug\netcoreapp3.1\InfrastructureLayer.pdb
