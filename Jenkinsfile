@@ -15,7 +15,7 @@ pipeline {
             steps {    
             
                
-               sh 'dotnet test /var/jenkins_home/workspace/DotNetBuild/UnitTestFlexyBox/bin/Debug/netcoreapp3.1 --no-build'
+               sh 'dotnet test /var/jenkins_home/workspace/DotNetBuild/UnitTestFlexyBox/UnitTestFlexyBox.csproj --no-build'
             }
 
 
