@@ -14,7 +14,7 @@ pipeline {
                     }
             steps {    
             
-               sh 'cd /var/jenkins_home/workspace/DotNetBuild/UnitTests/Domain/bin/Release/netcoreapp2.1 '
+               
                sh 'dotnet test /var/jenkins_home/workspace/DotNetBuild/UnitTestFlexyBox/bin/Debug/netcoreapp3.1 /var/jenkins_home/workspace/DotNetBuild/FlexyBox.sln --no-build'
             }
 
