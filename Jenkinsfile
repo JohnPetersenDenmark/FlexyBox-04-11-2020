@@ -12,9 +12,18 @@ pipeline {
                     {            
                         steps 
                                 {                               
-                                    sh 'dotnet build /var/jenkins_home/workspace/DotNetBuild/FlexyBox.sln -c Release -o /var/jenkins_home/workspace/DotNetBuild/out --no-restore'
+                                    sh 'dotnet build /var/jenkins_home/workspace/DotNetBuild/FlexyBox.sln -c Release -o /var/jenkins_home/workspace/DotNetBuild/out'
                                 }
                      }
+
+                stage('Unit test on project FlexyBox')
+                   {            
+                     steps 
+                                {                               
+                                    sh 'dotnet test /var/jenkins_home/workspace/DotNetBuild/UnitTestFlexyBox/UnitTestFlexyBox.csproj --no-build --logger trx'
+                                }
+                   }       
+
 
                                 
     }
