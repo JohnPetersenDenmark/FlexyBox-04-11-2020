@@ -12,8 +12,10 @@ pipeline {
               agent {
                         docker { image 'mcr.microsoft.com/dotnet/sdk:3.1' }
                     }
-            steps {               
-               sh 'dotnet build /var/jenkins_home/workspace/DotNetBuild/FlexyBox.sln -c Release -o /var/jenkins_home/workspace/DotNetBuild/out'
+            steps {    
+            
+               sh 'cd /var/jenkins_home/workspace/DotNetBuild/UnitTests/Domain/bin/Release/netcoreapp2.1 '
+               sh 'dotnet test NUnit3.TestAdapter.dll --no-build'
             }
 
 
