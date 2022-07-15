@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ieCUcCplZGgFCaXTvjmrLFT4iitOk9igT9H03hfeGOuzFCmcVMg4tRDSxpDFMRrBfK+mAI8EZFRNZti+S5RlVA==",
+  "dgSpecHash": "/asskEhGvsWDeMqaGNrlT1lz0PRPxNQgzmMGpCthU8mNvu+zwUbhfnA/nMerndtf+XJ+0k4jgc+2vE8nhYX8kg==",
   "success": true,
   "projectFilePath": "C:\\Users\\jp\\source\\repos\\FlexyBox-04-11-2020\\Docker\\Docker.csproj",
   "expectedPackageFiles": [
@@ -34,7 +34,8 @@
     "C:\\Users\\jp\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\jp\\.nuget\\packages\\system.diagnostics.eventlog\\4.7.0\\system.diagnostics.eventlog.4.7.0.nupkg.sha512",
     "C:\\Users\\jp\\.nuget\\packages\\system.security.accesscontrol\\4.7.0\\system.security.accesscontrol.4.7.0.nupkg.sha512",
-    "C:\\Users\\jp\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512"
+    "C:\\Users\\jp\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512",
+    "C:\\Users\\jp\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.23\\microsoft.netcore.app.host.win-x64.3.1.23.nupkg.sha512"
   ],
   "logs": []
 }

@@ -9,7 +9,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{F9381E
 	ProjectSection(SolutionItems) = preProject
 		Dockerfile = Dockerfile
 		DockerJenkinsInstallation = DockerJenkinsInstallation
-		Docker\jenkins.yml = Docker\jenkins.yml
 		Jenkinsfile = Jenkinsfile
 	EndProjectSection
 EndProject
@@ -19,19 +18,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DomainLayer", "Source\Domai
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InfrastructureLayer", "Source\InfrastructureLayer\InfrastructureLayer.csproj", "{6F3BF906-4CFF-4968-97C0-6864A40505B4}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docker", "Docker", "{20BD1B42-9FEB-491D-B104-884F80462106}"
-	ProjectSection(SolutionItems) = preProject
-		Docker\appsettings.Development.json = Docker\appsettings.Development.json
-		Docker\appsettings.json = Docker\appsettings.json
-		Docker\Docker.csproj = Docker\Docker.csproj
-		Docker\Docker.csproj.user = Docker\Docker.csproj.user
-		Dockerfile = Dockerfile
-		DockerJenkinsInstallation = DockerJenkinsInstallation
-		Docker\jenkins.yml = Docker\jenkins.yml
-		Jenkinsfile = Jenkinsfile
-		Docker\Program.cs = Docker\Program.cs
-		Docker\Worker.cs = Docker\Worker.cs
-	EndProjectSection
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Docker", "Docker\Docker.csproj", "{7D65F858-45D8-46FE-B354-855612AB1953}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -55,6 +42,10 @@ Global
 		{6F3BF906-4CFF-4968-97C0-6864A40505B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6F3BF906-4CFF-4968-97C0-6864A40505B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6F3BF906-4CFF-4968-97C0-6864A40505B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D65F858-45D8-46FE-B354-855612AB1953}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D65F858-45D8-46FE-B354-855612AB1953}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D65F858-45D8-46FE-B354-855612AB1953}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D65F858-45D8-46FE-B354-855612AB1953}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

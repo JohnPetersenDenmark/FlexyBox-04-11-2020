@@ -16,3 +16,4 @@ C:\Users\jp\source\repos\FlexyBox-04-11-2020\Source\DomainLayer\obj\Debug\netsta
 C:\Users\jp\source\repos\FlexyBox-04-11-2020\Source\DomainLayer\obj\Debug\netstandard2.1\DomainLayer.csproj.CoreCompileInputs.cache
 C:\Users\jp\source\repos\FlexyBox-04-11-2020\Source\DomainLayer\obj\Debug\netstandard2.1\DomainLayer.dll
 C:\Users\jp\source\repos\FlexyBox-04-11-2020\Source\DomainLayer\obj\Debug\netstandard2.1\DomainLayer.pdb
+C:\Users\jp\source\repos\FlexyBox-04-11-2020\Source\DomainLayer\obj\Debug\netstandard2.1\DomainLayer.csproj.AssemblyReference.cache
