@@ -1,7 +1,6 @@
 C:\Users\jp\source\repos\FlexyBox-04-11-2020\Source\DomainLayer\bin\Debug\netcoreapp3.1\DomainLayer.deps.json
 C:\Users\jp\source\repos\FlexyBox-04-11-2020\Source\DomainLayer\bin\Debug\netcoreapp3.1\DomainLayer.dll
 C:\Users\jp\source\repos\FlexyBox-04-11-2020\Source\DomainLayer\bin\Debug\netcoreapp3.1\DomainLayer.pdb
-C:\Users\jp\source\repos\FlexyBox-04-11-2020\Source\DomainLayer\obj\Debug\netcoreapp3.1\DomainLayer.csproj.AssemblyReference.cache
 C:\Users\jp\source\repos\FlexyBox-04-11-2020\Source\DomainLayer\obj\Debug\netcoreapp3.1\DomainLayer.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\jp\source\repos\FlexyBox-04-11-2020\Source\DomainLayer\obj\Debug\netcoreapp3.1\DomainLayer.AssemblyInfoInputs.cache
 C:\Users\jp\source\repos\FlexyBox-04-11-2020\Source\DomainLayer\obj\Debug\netcoreapp3.1\DomainLayer.AssemblyInfo.cs

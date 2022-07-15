@@ -12,7 +12,7 @@ pipeline {
                     {            
                         steps 
                                 {                               
-                                    sh 'dotnet build /var/jenkins_home/workspace/DotNetBuild/FlexyBox.sln -c Release -o /var/jenkins_home/workspace/DotNetBuild/out'
+                                    sh 'dotnet build /var/jenkins_home/workspace/DotNetBuild/FlexyBox.sln -c Release -o /var/jenkins_home/workspace/DotNetBuild/out --no-restore'
                                 }
                      }
 
