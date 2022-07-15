@@ -15,7 +15,7 @@ pipeline {
             steps {    
             
                sh 'cd /var/jenkins_home/workspace/DotNetBuild/UnitTests/Domain/bin/Release/netcoreapp2.1 '
-               sh 'dotnet test /var/jenkins_home/workspace/DotNetBuild/UnitTests/Domain/bin/Release/netcoreapp2.1/NUnit3.TestAdapter.dll --no-build'
+               sh 'dotnet test /var/jenkins_home/workspace/DotNetBuild/UnitTests/Domain/bin/Release/netcoreapp2.1/NUnit3.TestAdapter.dll /var/jenkins_home/workspace/DotNetBuild/FlexyBox.sln --no-build'
             }
 
 
