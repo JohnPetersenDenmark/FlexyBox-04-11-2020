@@ -20,6 +20,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InfrastructureLayer", "Sour
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Docker", "Docker\Docker.csproj", "{7D65F858-45D8-46FE-B354-855612AB1953}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestFlexyBox", "UnitTestFlexyBox\UnitTestFlexyBox.csproj", "{79927E7F-E3D9-4787-99D8-F6FE5A7B94E5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -46,6 +48,10 @@ Global
 		{7D65F858-45D8-46FE-B354-855612AB1953}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7D65F858-45D8-46FE-B354-855612AB1953}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7D65F858-45D8-46FE-B354-855612AB1953}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79927E7F-E3D9-4787-99D8-F6FE5A7B94E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79927E7F-E3D9-4787-99D8-F6FE5A7B94E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79927E7F-E3D9-4787-99D8-F6FE5A7B94E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79927E7F-E3D9-4787-99D8-F6FE5A7B94E5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
