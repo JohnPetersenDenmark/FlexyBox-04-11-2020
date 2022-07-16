@@ -24,6 +24,14 @@ pipeline {
                                 }
                    }       
 
+                     stage('Publish project FlexyBox')
+                   {            
+                     steps 
+                                {                               
+                                    sh 'dotnet publish  /var/jenkins_home/workspace/DotNetBuild/FlexyBox.sln --output /var/jenkins_home/workspace/DotNetBuild/Published --no---no-restore  '
+                                }
+                   }       
+
 
                                 
     }
